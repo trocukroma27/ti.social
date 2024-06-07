@@ -1,0 +1,11 @@
+framework module TiSocial {
+  umbrella header "TiSocial.h"
+  export *
+
+  module * { export * }
+}
+
+module TiSocial.Swift {
+  header "TiSocial-Swift.h"
+  requires objc
+}

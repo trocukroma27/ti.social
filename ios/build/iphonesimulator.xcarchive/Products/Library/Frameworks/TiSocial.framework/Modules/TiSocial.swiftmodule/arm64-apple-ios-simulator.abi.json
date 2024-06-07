@@ -1,0 +1,113 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "TiSocial",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "TitaniumKit",
+        "printedName": "TitaniumKit",
+        "declKind": "Import",
+        "moduleName": "TiSocial"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TiSocial"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/admin\/Work\/ti.social\/ios\/Classes\/TiSocialModule.swift",
+      "kind": "StringLiteral",
+      "offset": 855,
+      "length": 38,
+      "value": "\"2941b716-c044-484f-890c-f815f08c7de8\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Work\/ti.social\/ios\/Classes\/TiSocialModule.swift",
+      "kind": "StringLiteral",
+      "offset": 952,
+      "length": 11,
+      "value": "\"ti.social\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Work\/ti.social\/ios\/Classes\/TiSocialModule.swift",
+      "kind": "StringLiteral",
+      "offset": 1032,
+      "length": 24,
+      "value": "\"[DEBUG] \""
+    },
+    {
+      "filePath": "\/Users\/admin\/Work\/ti.social\/ios\/Classes\/TiSocialModule.swift",
+      "kind": "StringLiteral",
+      "offset": 1048,
+      "length": 6,
+      "value": "\" loaded\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Work\/ti.social\/ios\/Classes\/TiSocialModule.swift",
+      "kind": "StringLiteral",
+      "offset": 1246,
+      "length": 9,
+      "value": "\"message\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Work\/ti.social\/ios\/Classes\/TiSocialModule.swift",
+      "kind": "StringLiteral",
+      "offset": 1301,
+      "length": 6,
+      "value": "\"file\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Work\/ti.social\/ios\/Classes\/TiSocialModule.swift",
+      "kind": "Array",
+      "offset": 1342,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/admin\/Work\/ti.social\/ios\/Classes\/TiSocialModule.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2117,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/admin\/Work\/ti.social\/ios\/Classes\/TiSocialModule.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2128,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/admin\/Work\/ti.social\/ios\/Classes\/TiSocialModule.swift",
+      "kind": "Array",
+      "offset": 2192,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/admin\/Work\/ti.social\/ios\/Classes\/TiSocialModule.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2277,
+      "length": 4,
+      "value": "true"
+    }
+  ]
+}
