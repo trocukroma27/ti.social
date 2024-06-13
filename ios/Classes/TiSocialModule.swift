@@ -8,7 +8,6 @@
 
 import UIKit
 import TitaniumKit
-import Foundation
 
 /**
  
@@ -45,6 +44,7 @@ class TiSocialModule: TiModule {
 
         let message: String? = args["message"] as? String
         let file: String? = args["file"] as? String
+		let callback: KrollCallback? = args["callback"] as? KrollCallback
 
 		var items: [Any] = []
 
@@ -57,7 +57,22 @@ class TiSocialModule: TiModule {
 			items.append(fileURL)
         }
 
+		if items.isEmpty {
+			callback?.call([["errorCode": 500 as Any,
+							"errorDomain": "No items to share",
+							"error": "No items to share"]], thisObject: self)
+			return
+		}
+
 		let activityViewController : UIActivityViewController = UIActivityViewController(activityItems: items, applicationActivities: nil)
+
+		activityViewController.completionWithItemsHandler = { (type, completed, _, error) in
+            callback?.call([["errorCode": (error as NSError?)?.code as Any,
+							"errorDomain": (error as NSError?)?.domain as Any,
+							"error": error?.localizedDescription as Any,
+							"completed": NSNumber(value: completed),
+							"activityType": type?.rawValue as Any]], thisObject: self)
+        }
 
 		activityViewController.excludedActivityTypes = [UIActivity.ActivityType.mail]
 

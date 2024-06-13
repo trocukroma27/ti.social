@@ -1,0 +1,19 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 1.0.0
+apiversion: 2
+architectures: arm64 x86_64
+mac: false
+description: ti.social
+author: Roman Trotsiuk
+license: Specify your license
+copyright: Copyright (c) 2024 by Your Company
+
+# these should not be edited
+name: ti.social
+moduleid: ti.social
+guid: 2941b716-c044-484f-890c-f815f08c7de8
+platform: iphone
+minsdk: 12.3.0.GA
